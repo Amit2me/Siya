@@ -45,7 +45,7 @@ trainer.train('chatterbot.corpus.siya.training_files')
 
 def writeToFileQues(ques):
     file = open(
-        'C:\\Users\\AmitJ\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\chatterbot_corpus\\data\\siya\\training_files\\training_online.yml',
+        'C:\\Users\\Amit Jha\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\chatterbot_corpus\\data\\siya\\training_files\\training_online.yml',
         'a')
     temp= '- - '
     temp=temp+ques
@@ -54,7 +54,7 @@ def writeToFileQues(ques):
 
 def writeToFileAns(ans):
     file = open(
-        'C:\\Users\\AmitJ\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\chatterbot_corpus\\data\\siya\\training_files\\training_online.yml',
+        'C:\\Users\\Amit Jha\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\chatterbot_corpus\\data\\siya\\training_files\\training_online.yml',
         'a')
     temp= '  - '
     temp=temp+ans
@@ -64,7 +64,7 @@ def writeToFileAns(ans):
 
 def writeToFileQ(data):
     file = open(
-        'C:\\Users\\AmitJ\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\chatterbot_corpus\\data\\siya\\evaluation\\Q2A.yml',
+        'C:\\Users\\Amit Jha\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\chatterbot_corpus\\data\\siya\\evaluation\\Q2A.yml',
         'a')
     file.write(data)
     file.close()
@@ -73,7 +73,7 @@ def writeToFileQ(data):
 # function to write 'Questions Answered' to a file for Evaluation.
 def writeToFileA(data):
     file = open(
-        'C:\\Users\\AmitJ\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\chatterbot_corpus\\data\\siya\\evaluation\\A2Q.yml',
+        'C:\\Users\\Amit Jha\\AppData\\Local\\Programs\\Python\\Python36\\Lib\\site-packages\\chatterbot_corpus\\data\\siya\\evaluation\\A2Q.yml',
         'a')
     file.write(data)
     file.close()
